@@ -123,7 +123,7 @@ $('#hitokoto').click(function () {
 //获取天气
 //每日限量 100 次
 //请前往 https://www.tianqiapi.com/ 申请（免费）
-fetch('https://www.yiketianqi.com/free/day?appid=43656176&appsecret=I42og6Lm&unescape=1')
+fetch('https://www.yiketianqi.com/free/day?appid=23943792&appsecret=6pkhmJ8J&unescape=1')
     .then(response => response.json())
     .then(data => {
         $('#wea_text').html(data.wea)
